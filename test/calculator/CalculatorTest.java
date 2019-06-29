@@ -54,4 +54,26 @@ public class CalculatorTest {
 		}
 		return but;
 	}
+
+    @Test
+	public void test2() {
+		CalCFrame calf = new CalCFrame("Tester");
+
+		JButton but1 = getButton(calf,1); // get button
+		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
+		calf.actionPerformed(ev);
+
+        JButton but2 = getButton(calf,3); // get button
+        ActionEvent ev2 = new ActionEvent(but2, 0, null); // generate a click on button
+        calf.actionPerformed(ev2);
+
+        calf.actionPerformed(ev);
+
+        JButton but3 = getButton(calf,18); // get button
+        ActionEvent ev3 = new ActionEvent(but3, 0, null); // generate a click on button
+        calf.actionPerformed(ev3);
+
+		Assert.assertEquals("4.0", calf.getResult().getText());
+	}
+
 }
