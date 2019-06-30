@@ -16,6 +16,9 @@
       <executable />
     </execution>
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="214" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -33,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/calculator/CalCFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2753">
-              <caret line="199" column="70" selection-start-line="199" selection-start-column="59" selection-end-line="199" selection-end-column="70" />
+            <state relative-caret-position="-1071">
+              <caret line="283" column="23" selection-start-line="283" selection-start-column="13" selection-end-line="283" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -42,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/calculator/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="313" column="34" selection-start-line="313" selection-start-column="34" selection-end-line="313" selection-end-column="34" />
+            <state relative-caret-position="202">
+              <caret line="269" column="40" selection-start-line="269" selection-start-column="38" selection-end-line="269" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -55,6 +58,7 @@
       <find>calculate</find>
       <find>decnumber</find>
       <find>doubleclick</find>
+      <find>firstpress</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,7 +198,7 @@
       <workItem from="1561748302286" duration="4043000" />
       <workItem from="1561829792084" duration="3300000" />
       <workItem from="1561848226247" duration="5159000" />
-      <workItem from="1561858385653" duration="6843000" />
+      <workItem from="1561858385653" duration="7334000" />
     </task>
     <task id="LOCAL-00001" summary="wewewewewe">
       <created>1561859855982</created>
@@ -217,16 +221,17 @@
       <option name="project" value="LOCAL" />
       <updated>1561864949332</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="weoweoweoweo">
+      <created>1561865396159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561865396159</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2019.06.29 at 21h 56m 43s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2019.06.29 at 22h 09m 23s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest - 2019.06.29 at 22h 30m 59s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
@@ -251,15 +256,21 @@
     <history-entry file="CalculatorTest - 2019.06.29 at 23h 08m 19s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest - 2019.06.29 at 23h 28m 01s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.06.29 at 23h 32m 49s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19345000" />
+    <option name="totallyTimeSpent" value="19836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="956" height="907" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20022371" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20022371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -268,7 +279,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3277202" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3277202" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -279,7 +290,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32947233" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -301,7 +312,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="weoweoweoweo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SEG3103_Assignment2$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1561863092381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SEG3103_Assignment2$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1561865930543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>calculator.*</FILTER>
     </SUITE>
   </component>
@@ -343,15 +354,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/calculator/CalCFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2753">
-          <caret line="199" column="70" selection-start-line="199" selection-start-column="59" selection-end-line="199" selection-end-column="70" />
+        <state relative-caret-position="-1071">
+          <caret line="283" column="23" selection-start-line="283" selection-start-column="13" selection-end-line="283" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/calculator/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="313" column="34" selection-start-line="313" selection-start-column="34" selection-end-line="313" selection-end-column="34" />
+        <state relative-caret-position="202">
+          <caret line="269" column="40" selection-start-line="269" selection-start-column="38" selection-end-line="269" selection-end-column="40" />
         </state>
       </provider>
     </entry>
