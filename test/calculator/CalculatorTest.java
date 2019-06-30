@@ -228,30 +228,18 @@ public class CalculatorTest {
 
 		Assert.assertEquals("2.0", calf.getResult().getText());
 	}
-/*
+
 	@Test
 	public void test7() {
 		CalCFrame calf = new CalCFrame("Tester");
 
-		calf.setClearscreen(false);
+		calf.setClearscreen(true);
 
-		JButton but1 = getButton(calf,0); // get button
+		JButton but1 = getButton(calf,15); // get button
 		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
 		calf.actionPerformed(ev);
 
-		JButton but2 = getButton(calf,15); // get button
-		ActionEvent ev2 = new ActionEvent(but2, 0, null); // generate a click on button
-		calf.actionPerformed(ev2);
-
-		JButton but3 = getButton(calf,1); // get button
-		ActionEvent ev3 = new ActionEvent(but3, 0, null); // generate a click on button
-		calf.actionPerformed(ev3);
-
-		JButton but4 = getButton(calf,18); // get button
-		ActionEvent ev4 = new ActionEvent(but4, 0, null); // generate a click on button
-		calf.actionPerformed(ev4);
-
-		Assert.assertEquals("0.02", calf.getResult().getText());
+		Assert.assertEquals("0", calf.getResult().getText());
 	}
 
 	@Test
@@ -259,10 +247,6 @@ public class CalculatorTest {
 		CalCFrame calf = new CalCFrame("Tester");
 
 		calf.setClearscreen(false);
-
-		JButton but1 = getButton(calf,0); // get button
-		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
-		calf.actionPerformed(ev);
 
 		JButton but2 = getButton(calf,17); // get button
 		ActionEvent ev2 = new ActionEvent(but2, 0, null); // generate a click on button
@@ -290,7 +274,7 @@ public class CalculatorTest {
 		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
 		calf.actionPerformed(ev);
 
-		JButton but2 = getButton(calf,3); // get button
+		JButton but2 = getButton(calf,17); // get button
 		ActionEvent ev2 = new ActionEvent(but2, 0, null); // generate a click on button
 		calf.actionPerformed(ev2);
 
@@ -302,7 +286,31 @@ public class CalculatorTest {
 		ActionEvent ev4 = new ActionEvent(but4, 0, null); // generate a click on button
 		calf.actionPerformed(ev4);
 
-		Assert.assertEquals("0.02", calf.getResult().getText());
-	}*/
+		Assert.assertEquals("1.02", calf.getResult().getText());
+	}
 
+	@Test
+	public void test10() {
+		CalCFrame calf = new CalCFrame("Tester");
+
+		calf.setClearscreen(false);
+
+		JButton but1 = getButton(calf,0); // get button
+		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
+		calf.actionPerformed(ev);
+
+		JButton but2 = getButton(calf,17); // get button
+		ActionEvent ev2 = new ActionEvent(but2, 0, null); // generate a click on button
+		calf.actionPerformed(ev2);
+
+		JButton but3 = getButton(calf,1); // get button
+		ActionEvent ev3 = new ActionEvent(but3, 0, null); // generate a click on button
+		calf.actionPerformed(ev3);
+
+		JButton but4 = getButton(calf,18); // get button
+		ActionEvent ev4 = new ActionEvent(but4, 0, null); // generate a click on button
+		calf.actionPerformed(ev4);
+
+		Assert.assertEquals("1.02", calf.getResult().getText());
+	}
 }
