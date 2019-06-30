@@ -1,5 +1,6 @@
 package calculator;
 
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.lang.reflect.Field;
 
@@ -102,13 +103,42 @@ public class CalculatorTest {
 	public void test4() {
 		CalCFrame calf = new CalCFrame("Tester");
 
-		calf.setResult(1);
+		JButton but1 = getButton(calf,1); // get button
+		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
+		calf.actionPerformed(ev);
+
+		JButton but2 = getButton(calf,3); // get button
+		ActionEvent ev2 = new ActionEvent(but2, 0, null); // generate a click on button
+		calf.actionPerformed(ev2);
+
+		calf.actionPerformed(ev);
+
+		JButton but3 = getButton(calf,18); // get button
+		ActionEvent ev3 = new ActionEvent(but3, 0, null); // generate a click on button
+		calf.actionPerformed(ev3);
+
+		Assert.assertEquals("4.0", calf.getResult().getText());
+	}
+
+	@Test
+	public void test5() {
+		CalCFrame calf = new CalCFrame("Tester");
 
 		JButton but1 = getButton(calf,1); // get button
 		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
 		calf.actionPerformed(ev);
 
-		Assert.assertEquals("0", calf.getResult().getText());
+		JButton but2 = getButton(calf,3); // get button
+		ActionEvent ev2 = new ActionEvent(but2, 0, null); // generate a click on button
+		calf.actionPerformed(ev2);
+
+		calf.actionPerformed(ev);
+
+		JButton but3 = getButton(calf,18); // get button
+		ActionEvent ev3 = new ActionEvent(but3, 0, null); // generate a click on button
+		calf.actionPerformed(ev3);
+
+		Assert.assertEquals("4.0", calf.getResult().getText());
 	}
 
 
