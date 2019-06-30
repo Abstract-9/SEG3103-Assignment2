@@ -14,38 +14,13 @@ import org.junit.runners.Parameterized;
 
 @RunWith(Parameterized.class)
 public class CalculatorTest {
-	/*
-	 * These tests illustrate how to use Java reflection to access private members
-	 */
-//	@Test
-//	public void test1() {
-//		CalCFrame calf = new CalCFrame("Tester");
-//		JButton but0 = getButton(calf,0); // get button
-//		ActionEvent ev = new ActionEvent(but0, 0, null); // generate a click on button
-//		calf.actionPerformed(ev);
-//		Assert.assertEquals("1", calf.getResult().getText());
-//	}
-//
-//	@Test
-//	public void test2() {
-//		CalCFrame calf = new CalCFrame("Tester");
-//		JButton but1 = getButton(calf,1); // get button
-//		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
-//		calf.actionPerformed(ev);
-//		Assert.assertEquals("2", calf.getResult().getText());
-//	}
-
-//	@Test
-//	public void test1(){
-//		CalCFrame calf = new CalCFrame("Tester");
-//	}
 
 	int[] buttons;
-	int exResult;
+	String exResult;
 	boolean clearscreen;
 	CalCFrame calf;
 
-	public CalculatorTest(int[] buttons, int exResult, boolean clearscreen){
+	public CalculatorTest(int[] buttons, String exResult, boolean clearscreen){
 		this.buttons = buttons;
 		calf = new CalCFrame("Tester");
 		this.exResult = exResult;
@@ -76,12 +51,13 @@ public class CalculatorTest {
 	public static List<Object[]> data(){
 		List<Object[]> data = new LinkedList<>();
 
-		data.add(new Object[]{new Integer[]{17, 1, 18}, "0.02", false});
-		data.add(new Object[]{new Integer[]{15}, "0", false});
-		data.add(new Object[]{new Integer[]{15}, "0", true});
-		data.add(new Object[]{new Integer[]{1, 3, 18}, "4.0", false});
-		data.add(new Object[]{new Integer[]{1, 3, 1, 18}, "4.0", true});
-		return data();
+		data.add(new Object[]{new Integer[]{0, 3, 1}, "3.0", false});
+		data.add(new Object[]{new Integer[]{2, 4, 5}, "-1.0", false});
+		data.add(new Object[]{new Integer[]{6, 8, 7}, "30.0", true});
+		data.add(new Object[]{new Integer[]{10, 9, 11}, "0.875", false});
+		data.add(new Object[]{new Integer[]{12, 15}, "0.0", false});
+		data.add(new Object[]{new Integer[]{12, 15}, "0.0", false});
+		return data;
 	}
 
 
@@ -95,91 +71,6 @@ public class CalculatorTest {
 		}
 		Assert.assertEquals(exResult, calf.getResult().getText());
 	}
-
-	/*@Test
-	public void test1() {
-		CalCFrame calf = new CalCFrame("Tester");
-
-		JButton but1 = getButton(calf,17); // get button
-		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
-		calf.actionPerformed(ev);
-
-		JButton but2 = getButton(calf,1); // get button
-		ActionEvent ev2 = new ActionEvent(but2, 0, null); // generate a click on button
-		calf.actionPerformed(ev2);
-
-		JButton but3 = getButton(calf,18); // get button
-		ActionEvent ev3 = new ActionEvent(but3, 0, null); // generate a click on button
-		calf.actionPerformed(ev3);
-
-		Assert.assertEquals("0.02", calf.getResult().getText());
-	}
-
-	@Test
-	public void test2() {
-		CalCFrame calf = new CalCFrame("Tester");
-
-		JButton but1 = getButton(calf,15); // get button
-		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
-		calf.actionPerformed(ev);
-
-		Assert.assertEquals("0", calf.getResult().getText());
-	}
-
-	@Test
-	public void test3() {
-		CalCFrame calf = new CalCFrame("Tester");
-
-		calf.setClearscreen(true);
-
-		JButton but1 = getButton(calf,15); // get button
-		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
-		calf.actionPerformed(ev);
-
-		Assert.assertEquals("0", calf.getResult().getText());
-	}
-
-	@Test
-	public void test4() {
-		CalCFrame calf = new CalCFrame("Tester");
-
-		JButton but1 = getButton(calf,1); // get button
-		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
-		calf.actionPerformed(ev);
-
-		JButton but2 = getButton(calf,3); // get button
-		ActionEvent ev2 = new ActionEvent(but2, 0, null); // generate a click on button
-		calf.actionPerformed(ev2);
-
-		calf.actionPerformed(ev);
-
-		JButton but3 = getButton(calf,18); // get button
-		ActionEvent ev3 = new ActionEvent(but3, 0, null); // generate a click on button
-		calf.actionPerformed(ev3);
-
-		Assert.assertEquals("4.0", calf.getResult().getText());
-	}
-
-	@Test
-	public void test5() {
-		CalCFrame calf = new CalCFrame("Tester");
-
-		JButton but1 = getButton(calf,1); // get button
-		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
-		calf.actionPerformed(ev);
-
-		JButton but2 = getButton(calf,3); // get button
-		ActionEvent ev2 = new ActionEvent(but2, 0, null); // generate a click on button
-		calf.actionPerformed(ev2);
-
-		calf.actionPerformed(ev);
-
-		JButton but3 = getButton(calf,18); // get button
-		ActionEvent ev3 = new ActionEvent(but3, 0, null); // generate a click on button
-		calf.actionPerformed(ev3);
-
-		Assert.assertEquals("4.0", calf.getResult().getText());
-	}*/
 
 
 }
