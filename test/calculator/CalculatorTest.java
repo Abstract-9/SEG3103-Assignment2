@@ -233,8 +233,6 @@ public class CalculatorTest {
 	public void test7() {
 		CalCFrame calf = new CalCFrame("Tester");
 
-		calf.setClearscreen(true);
-
 		JButton but1 = getButton(calf,15); // get button
 		ActionEvent ev = new ActionEvent(but1, 0, null); // generate a click on button
 		calf.actionPerformed(ev);
@@ -261,6 +259,37 @@ public class CalculatorTest {
 		calf.actionPerformed(ev4);
 
 		Assert.assertEquals("0.02", calf.getResult().getText());
+	}
+
+	@Test
+	public void test9() {
+		CalCFrame calf = new CalCFrame("Tester");
+
+		calf.setClearscreen(true);
+
+		JButton but2 = getButton(calf,16); // get button
+		ActionEvent ev2 = new ActionEvent(but2, 0, null); // generate a click on button
+		calf.actionPerformed(ev2);
+
+		JButton but3 = getButton(calf,3); // get button
+		ActionEvent ev3 = new ActionEvent(but3, 0, null); // generate a click on button
+		calf.actionPerformed(ev3);
+
+		JButton but4 = getButton(calf,1); // get button
+		ActionEvent ev4 = new ActionEvent(but4, 0, null); // generate a click on button
+		calf.actionPerformed(ev4);
+
+		calf.actionPerformed(ev3);
+
+		JButton but5 = getButton(calf,2); // get button
+		ActionEvent ev5 = new ActionEvent(but5, 0, null); // generate a click on button
+		calf.actionPerformed(ev5);
+
+		JButton but6 = getButton(calf,18); // get button
+		ActionEvent ev6 = new ActionEvent(but6, 0, null); // generate a click on button
+		calf.actionPerformed(ev6);
+
+		Assert.assertEquals("5.0", calf.getResult().getText());
 	}
 
 }
