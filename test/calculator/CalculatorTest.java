@@ -1,14 +1,18 @@
 package calculator;
 
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.lang.reflect.Field;
+import java.util.LinkedList;
+import java.util.List;
 
 import javax.swing.*;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
 
+@RunWith(Parameterized.class)
 public class CalculatorTest {
 	/*
 	 * These tests illustrate how to use Java reflection to access private members
@@ -36,6 +40,18 @@ public class CalculatorTest {
 //		CalCFrame calf = new CalCFrame("Tester");
 //	}
 
+	int[] buttons;
+	int exResult;
+	boolean clearscreen;
+	CalCFrame calf;
+
+	public CalculatorTest(int[] buttons, int exResult, boolean clearscreen){
+		this.buttons = buttons;
+		calf = new CalCFrame("Tester");
+		this.exResult = exResult;
+		this.clearscreen = clearscreen;
+	}
+
 	// using Java reflection to access the calculator buttons
 	private JButton getButton(CalCFrame calf,int b) {
 		Field fb;
@@ -56,7 +72,31 @@ public class CalculatorTest {
 		return but;
 	}
 
+	@Parameterized.Parameters
+	public static List<Object[]> data(){
+		List<Object[]> data = new LinkedList<>();
+
+		data.add(new Object[]{new Integer[]{17, 1, 18}, "0.02", false});
+		data.add(new Object[]{new Integer[]{15}, "0", false});
+		data.add(new Object[]{new Integer[]{15}, "0", true});
+		data.add(new Object[]{new Integer[]{1, 3, 18}, "4.0", false});
+		data.add(new Object[]{new Integer[]{1, 3, 1, 18}, "4.0", true});
+		return data();
+	}
+
+
 	@Test
+	public void test(){
+		if(clearscreen) calf.setClearscreen(true);
+		for (int button : buttons){
+			JButton but = getButton(calf, button);
+			ActionEvent ev = new ActionEvent(but, 0, null);
+			calf.actionPerformed(ev);
+		}
+		Assert.assertEquals(exResult, calf.getResult().getText());
+	}
+
+	/*@Test
 	public void test1() {
 		CalCFrame calf = new CalCFrame("Tester");
 
@@ -139,7 +179,7 @@ public class CalculatorTest {
 		calf.actionPerformed(ev3);
 
 		Assert.assertEquals("4.0", calf.getResult().getText());
-	}
+	}*/
 
 
 }
