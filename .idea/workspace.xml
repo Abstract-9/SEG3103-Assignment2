@@ -30,20 +30,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/calculator/CalCFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3365">
+            <state relative-caret-position="-2753">
               <caret line="199" column="70" selection-start-line="199" selection-start-column="59" selection-end-line="199" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/calculator/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="291" column="9" lean-forward="true" selection-start-line="291" selection-start-column="9" selection-end-line="291" selection-end-column="9" />
+            <state relative-caret-position="321">
+              <caret line="313" column="34" selection-start-line="313" selection-start-column="34" selection-end-line="313" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -53,8 +53,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>calculate</find>
-      <find>doubleclick</find>
       <find>decnumber</find>
+      <find>doubleclick</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,7 +194,7 @@
       <workItem from="1561748302286" duration="4043000" />
       <workItem from="1561829792084" duration="3300000" />
       <workItem from="1561848226247" duration="5159000" />
-      <workItem from="1561858385653" duration="6302000" />
+      <workItem from="1561858385653" duration="6843000" />
     </task>
     <task id="LOCAL-00001" summary="wewewewewe">
       <created>1561859855982</created>
@@ -210,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561862577503</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="weoweoweoweo">
+      <created>1561864949332</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561864949332</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -246,7 +253,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18804000" />
+    <option name="totallyTimeSpent" value="19345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="956" height="907" extended-state="0" />
@@ -334,17 +341,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/calculator/CalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/calculator/CalCFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="291" column="9" lean-forward="true" selection-start-line="291" selection-start-column="9" selection-end-line="291" selection-end-column="9" />
+        <state relative-caret-position="-2753">
+          <caret line="199" column="70" selection-start-line="199" selection-start-column="59" selection-end-line="199" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/CalCFrame.java">
+    <entry file="file://$PROJECT_DIR$/test/calculator/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3365">
-          <caret line="199" column="70" selection-start-line="199" selection-start-column="59" selection-end-line="199" selection-end-column="70" />
+        <state relative-caret-position="321">
+          <caret line="313" column="34" selection-start-line="313" selection-start-column="34" selection-end-line="313" selection-end-column="34" />
         </state>
       </provider>
     </entry>
