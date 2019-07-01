@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="736a66c5-9847-4250-aadd-6d1ac9479bb9" name="Default Changelist" comment="">
+    <list default="true" id="736a66c5-9847-4250-aadd-6d1ac9479bb9" name="Default Changelist" comment="donezobiiiiitch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ebook/controller/ebookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ebook/controller/ebookControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,57 +16,57 @@
     </execution>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="214" />
+    <option name="myElementSize" value="97" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SEG3103-Assignment2" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/calculator/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/calculator/CalCFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="283" column="23" selection-start-line="283" selection-start-column="13" selection-end-line="283" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ebook/controller/ebookControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="440" column="30" lean-forward="true" selection-start-line="440" selection-start-column="30" selection-end-line="440" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ebook/controller/EbookingControl.java">
+        <entry file="file://$PROJECT_DIR$/src/calculator/CalCFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="116" column="73" lean-forward="true" selection-start-line="116" selection-start-column="73" selection-end-line="116" selection-end-column="73" />
+            <state relative-caret-position="374">
+              <caret line="305" column="37" lean-forward="true" selection-start-line="305" selection-start-column="37" selection-end-line="305" selection-end-column="37" />
+              <folding>
+                <element signature="e#1917#2010#0" expanded="true" />
+                <element signature="e#2009#2010#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ebook/simulator/BasicReactions.java">
+        <entry file="file://$PROJECT_DIR$/test/calculator/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="57" />
+            <state relative-caret-position="204">
+              <caret line="200" column="21" lean-forward="true" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -76,10 +75,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>calculate</find>
       <find>decnumber</find>
       <find>doubleclick</find>
       <find>firstpress</find>
+      <find>clearsc</find>
+      <find>equals</find>
+      <find>calculate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,14 +91,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/calculator/CalCFrame.java" />
         <option value="$PROJECT_DIR$/test/calculator/CalculatorTest.java" />
-        <option value="$PROJECT_DIR$/test/ebook/controller/ebookControllerTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="958" />
-    <option name="height" value="909" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="814" />
+    <option name="height" value="907" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -109,48 +115,66 @@
         <subPane>
           <expand>
             <path>
-              <item name="A2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
+              <item name="SEG3103-Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="A2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
+              <item name="SEG3103-Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SEG3103-Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SEG3103-Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SEG3103-Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="ebook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SEG3103-Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SEG3103-Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="A2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
+              <item name="SEG3103-Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="A2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ebook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ebook" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ebook" type="462c0819:PsiDirectoryNode" />
-              <item name="simulator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
+              <item name="SEG3103-Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="A2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
+              <item name="SEG3103-Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SEG3103-Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SEG3103-Assignment2" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -171,11 +195,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SEG3125/SEG3125-Lab1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -192,10 +215,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="Application.Calculator">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="calculator.Calculator" />
-      <module name="A2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="calculator.*" />
@@ -223,8 +247,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.Calculator" />
+        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,8 +266,6 @@
       <workItem from="1561829792084" duration="3300000" />
       <workItem from="1561848226247" duration="5159000" />
       <workItem from="1561858385653" duration="7334000" />
-      <workItem from="1561866165261" duration="24000" />
-      <workItem from="1561912230422" duration="3435000" />
     </task>
     <task id="LOCAL-00001" summary="wewewewewe">
       <created>1561859855982</created>
@@ -277,15 +299,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2019.06.29 at 22h 30m 59s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2019.06.29 at 22h 32m 08s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2019.06.29 at 22h 52m 17s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest - 2019.06.29 at 22h 55m 17s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
@@ -307,24 +320,32 @@
     <history-entry file="CalculatorTest - 2019.06.29 at 23h 32m 49s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest - 2019.06.30 at 18h 55m 34s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.06.30 at 18h 56m 12s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.06.30 at 18h 56m 44s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23295000" />
+    <option name="totallyTimeSpent" value="32478000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="814" height="907" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2147651" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990366" visible="true" weight="0.19946809" />
+      <window_info id="Structure" order="1" sideWeight="0.5009634" side_tool="true" weight="0.19946809" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5009634" side_tool="true" weight="0.19946809" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3277202" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32642487" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,12 +361,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32978722" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="SciView" order="8" />
-      <window_info anchor="right" id="Database" order="9" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32885906" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32978722" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32845744" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,8 +377,12 @@
     <MESSAGE value="weoweoweoweo" />
     <option name="LAST_COMMIT_MESSAGE" value="weoweoweoweo" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SEG3103_Assignment2$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1561865930543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SEG3103_Assignment2$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1561935377102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>calculator.*</FILTER>
     </SUITE>
   </component>
@@ -376,50 +401,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/LinkedList.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/reflect/NativeConstructorAccessorImpl.class" />
-    <entry file="file://$PROJECT_DIR$/src/calculator/Calculator.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="164">
+          <caret line="337" selection-start-line="337" selection-end-line="337" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/calculator/CalculatorTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/reflect/NativeConstructorAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="252" column="46" lean-forward="true" selection-start-line="252" selection-start-column="46" selection-end-line="252" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/calculator/CalCFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="283" column="23" selection-start-line="283" selection-start-column="13" selection-end-line="283" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ebook/simulator/BasicReactions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="57" />
+        <state relative-caret-position="272">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ebook/controller/ebookControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="440" column="30" lean-forward="true" selection-start-line="440" selection-start-column="30" selection-end-line="440" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-5746">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ebook/controller/EbookingControl.java">
+    <entry file="file://$PROJECT_DIR$/src/calculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="116" column="73" lean-forward="true" selection-start-line="116" selection-start-column="73" selection-end-line="116" selection-end-column="73" />
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/calculator/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="200" column="21" lean-forward="true" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/CalCFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="305" column="37" lean-forward="true" selection-start-line="305" selection-start-column="37" selection-end-line="305" selection-end-column="37" />
+          <folding>
+            <element signature="e#1917#2010#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
